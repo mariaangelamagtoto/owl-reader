@@ -11,4 +11,38 @@ page-tabs {
     .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
         color: #0089d1;
     }
+    // .plus-icon {
+    //   position: absolute;
+    //   top: -102px;
+    //   right: 45px;
+    //   height: 38px;
+    //   width: 38px;
+    //   background: #31414d;
+    //   font-size: 30px;
+    //   border-radius: 50%;
+    // }
+    .fab-md-dark,
+    .fab-ios-dark {
+      bottom: 55px;
+      right: 30px;
+      height: 38px;
+      width: 38px;
+      background-color: #31414d;
+    }
+    .fab-close-icon {
+        top: -8px;
+    }
+    ion-fab-list[side=top] {
+     right: 20px;
+      bottom: 25px;
+      .fab-in-list {
+          height: 30px;
+          width: 30px;
+        
+      }
+        .fab ion-icon {
+              font-size: 1.8rem;
+              color: #31414d;
+          }
+    }
 }

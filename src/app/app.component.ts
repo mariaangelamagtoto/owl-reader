@@ -8,7 +8,8 @@ import { ShelfPage } from '../pages/shelf/shelf';
 import { TabsPage } from '../pages/tabs/tabs';
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+  selector : 'page-app'
 })
 export class AppComponent {
   // @ViewChild(Nav) nav: Nav;

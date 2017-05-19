@@ -3,3 +3,18 @@
     <ion-tab [root]="tab2Root" tabTitle="Library" tabIcon="paper"></ion-tab>
     <ion-tab [root]="tab2Root" tabTitle="Favorites" tabIcon="heart"></ion-tab>    
 </ion-tabs>
+<!--<ion-footer>
+  <button class="plus-icon" fab fab-bottom fab-right fab-fixed>
+    <ion-icon name="add"></ion-icon>
+  </button>
+</ion-footer>-->
+
+  <ion-fab right bottom>
+    <button ion-fab color="dark"><ion-icon name="add"></ion-icon></button>
+    <ion-fab-list side="top">
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+      <button ion-fab><ion-icon name="folder-open"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
