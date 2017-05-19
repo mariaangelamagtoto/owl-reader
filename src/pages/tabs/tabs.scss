@@ -1,0 +1,14 @@
+page-tabs {
+    .tabs-md .tab-button,
+    .tabs-ios .tab-button,
+    .tabs-md .tab-button-icon,
+    .tabs-ios .tab-button-icon  {
+        color: #31414d;
+    }
+    .tabs-md .tab-button[aria-selected=true] .tab-button-icon,
+    .tabs-md .tab-button[aria-selected=true],
+    .tabs-ios .tab-button:hover:not(.disable-hover), .tabs-ios .tab-button[aria-selected=true],
+    .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
+        color: #0089d1;
+    }
+}
