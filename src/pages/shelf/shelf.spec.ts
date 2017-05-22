@@ -1,6 +1,5 @@
 import { TestBed, ComponentFixture, async } from '@angular/core/testing';
 import { IonicModule } from 'ionic-angular';
-import { AppComponent } from '../../app/app.component';
 import { ShelfPage }  from './shelf';
 import { NavController } from 'ionic-angular';
 

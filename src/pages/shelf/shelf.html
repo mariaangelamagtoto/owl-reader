@@ -4,7 +4,13 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <img src="assets/img/logo.png" width="40px">
-    <!--<ion-title class="title">Library</ion-title>-->
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentPopover($event)">
+          <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
-<ion-content></ion-content>
+<ion-content>
+  <h1>shelf</h1>
+</ion-content>
